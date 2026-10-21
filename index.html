@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Zain — UI/UX Designer</title>
+  <link rel="icon" type="image/png" href="assets/images/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Caveat:wght@500&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+
+<body>
+  <header id="hd">
+    <div class="wrap hd">
+      <a class="brand" href="#home" aria-label="Zain Ul Abideen — UI/UX Designer">
+        <span class="wordmark">ZAIN&nbsp;.&nbsp;<em>UI/UX</em></span>
+      </a>
+      <nav id="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn talk" href="#contact">Let’s Talk <svg class="i" data-i="arrow"></svg></a>
+      <button class="mbtn" id="mb" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg class="i" data-i="menu"></svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section id="home">
+      <div class="wrap hero">
+        <div>
+          <p class="eyebrow rv-i" style="--d: 0">UI / UX Designer</p>
+          <h1 class="rv-i" style="--d: 1">
+            Turning ideas into <span class="grad">intuitive</span> digital
+            experiences.
+          </h1>
+          <p class="lead rv-i" style="--d: 2">
+            I’m a UI/UX Designer who loves crafting clean, modern and
+            user-centered designs. I help brands turn complex problems into
+            simple, beautiful digital experiences.
+          </p>
+          <div class="ctas rv-i" style="--d: 3">
+            <a class="btn pri" href="#work">View My Work <svg class="i" data-i="arrow"></svg>
+            </a>
+            <a class="btn" href="#contact">
+              Contact
+              <svg class="i" data-i="arrow" style="transform: rotate(90deg)"></svg>
+            </a>
+          </div>
+        </div>
+        <div class="scene rv-i" style="--d: 4" id="scene" role="img"
+          aria-label="Laptop showing an analytics dashboard with a matching mobile app on a phone, beside a plant">
+          <div class="desk"></div>
+          <div class="laptop" id="lap">
+            <div class="screen">
+              <div class="sb"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="dash">
+                <h4>Good morning, Zain</h4>
+                <div class="kp">
+                  <div>Total Users<b>24.8K</b></div>
+                  <div>Conversion<b>8.5K</b></div>
+                  <div>Revenue<b>4.8%</b></div>
+                </div>
+                <div class="ch">
+                  <svg viewBox="0 0 200 74" role="img" aria-label="Growth chart">
+                    <defs>
+                      <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+                        <stop offset="0" stop-color="#A78BFA" stop-opacity=".5" />
+                        <stop offset="1" stop-color="#A78BFA" stop-opacity="0" />
+                      </linearGradient>
+                      <linearGradient id="g2" x1="0" x2="1">
+                        <stop offset="0" stop-color="#65E6CF" />
+                        <stop offset="1" stop-color="#A78BFA" />
+                      </linearGradient>
+                    </defs>
+                    <path d="M0 14H200M0 30H200M0 46H200M0 62H200" stroke="#243040" stroke-width=".5" fill="none" />
+                    <path class="area" d="M0 56C20 52 30 46 50 48S80 32 100 36 130 20 150 24 185 12 196 9V74H0Z"
+                      fill="url(#g1)" />
+                    <path d="M0 62C25 58 45 56 70 52S120 46 150 40 185 34 196 31" fill="none" stroke="#6aa7ff"
+                      stroke-opacity=".45" stroke-width=".9" stroke-dasharray="3 3" />
+                    <path class="line" pathLength="1"
+                      d="M0 56C20 52 30 46 50 48S80 32 100 36 130 20 150 24 185 12 196 9" fill="none" stroke="url(#g2)"
+                      stroke-width="1.8" stroke-linecap="round" />
+                    <g class="dots" fill="#0b1017" stroke="#65E6CF" stroke-width="1.2">
+                      <circle cx="50" cy="48" r="2" />
+                      <circle cx="100" cy="36" r="2" />
+                      <circle cx="150" cy="24" r="2" />
+                    </g>
+                    <circle cx="196" cy="9" r="2.6" fill="#65E6CF" />
+                    <circle class="pulse" cx="196" cy="9" r="2.6" fill="none" stroke="#65E6CF" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="base"></div>
+          </div>
+          <div class="phone" id="ph">
+            <span class="notch"></span>
+            <div class="ps"><span>9:41</span><span>●●●</span></div>
+            <strong>Better Ideas<br /><span class="grad">Bigger Impact</span></strong>
+            <div class="ph">
+              <svg viewBox="0 0 80 60" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                <defs>
+                  <linearGradient id="pg1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#e6b894" />
+                    <stop offset=".55" stop-color="#8a6bd1" />
+                    <stop offset="1" stop-color="#2a2160" />
+                  </linearGradient>
+                </defs>
+                <rect width="80" height="60" fill="url(#pg1)" />
+                <circle cx="26" cy="26" r="9" fill="#f3d6bd" />
+                <path d="M8 60c0-16 8-22 18-22s18 6 18 22Z" fill="#23304a" />
+                <circle cx="56" cy="30" r="8" fill="#d7a98a" />
+                <path d="M40 60c0-14 7-20 16-20s16 6 16 20Z" fill="#3b2f7a" />
+              </svg>
+            </div>
+            <div class="pb">Get Started</div>
+            <div class="pn"><i class="on"></i><i></i><i></i></div>
+          </div>
+          <div class="plant">
+            <svg viewBox="0 0 120 160" aria-hidden="true">
+              <defs>
+                <linearGradient id="lf1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#3aa68c" />
+                  <stop offset="1" stop-color="#0f2f2a" />
+                </linearGradient>
+                <linearGradient id="lf2" x1="1" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#2f8f78" />
+                  <stop offset="1" stop-color="#0c2824" />
+                </linearGradient>
+                <linearGradient id="pot" x1="0" x2="1">
+                  <stop offset="0" stop-color="#2a3442" />
+                  <stop offset=".5" stop-color="#1c2430" />
+                  <stop offset="1" stop-color="#121821" />
+                </linearGradient>
+              </defs>
+              <g class="lf" style="--k: 0">
+                <path d="M60 118C38 114 14 100 6 78c26 0 46 14 54 40Z" fill="url(#lf1)" />
+                <path d="M60 118C40 104 24 92 10 80" stroke="#fff" stroke-opacity=".18" fill="none" />
+              </g>
+              <g class="lf" style="--k: 1">
+                <path d="M60 118C82 114 106 100 114 78c-26 0-46 14-54 40Z" fill="url(#lf2)" />
+                <path d="M60 118C80 104 96 92 110 80" stroke="#fff" stroke-opacity=".18" fill="none" />
+              </g>
+              <g class="lf" style="--k: 2">
+                <path d="M60 118C34 104 20 70 30 26c24 16 34 52 30 92Z" fill="url(#lf1)" />
+                <path d="M60 118C52 86 44 58 31 28" stroke="#fff" stroke-opacity=".2" fill="none" />
+              </g>
+              <g class="lf" style="--k: 3">
+                <path d="M60 118C86 104 100 70 90 26c-24 16-34 52-30 92Z" fill="url(#lf2)" />
+                <path d="M60 118C68 86 76 58 89 28" stroke="#fff" stroke-opacity=".2" fill="none" />
+              </g>
+              <g class="lf" style="--k: 4">
+                <path d="M60 118C48 84 50 40 60 6c12 34 12 78 0 112Z" fill="url(#lf1)" />
+                <path d="M60 118C58 80 58 40 60 10" stroke="#fff" stroke-opacity=".22" fill="none" />
+              </g>
+              <path d="M36 118h48l-6 38H42Z" fill="url(#pot)" stroke="#2a3442" />
+              <rect x="32" y="114" width="56" height="8" rx="3" fill="#232d3b" stroke="#2f3a4a" />
+              <path d="M44 126v26" stroke="#fff" stroke-opacity=".07" stroke-width="3" />
+            </svg>
+          </div>
+          <div class="note hand">
+            Good<br />Design<br />Builds<br />Trust<svg class="harrow" viewBox="0 0 60 60" aria-hidden="true">
+              <path pathLength="1" d="M52 6C22 6 6 26 12 52" />
+              <path pathLength="1" d="M12 52l-7-10M12 52l10-8" />
+            </svg>
+          </div>
+          <div class="chip c1" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 16l6-6 4 4 6-8M15 6h5v5" />
+            </svg><span><b>+12.4%</b><small>Conversion</small></span>
+          </div>
+          <div class="chip c2" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M5 12l5 5 9-10" />
+            </svg><span><b>Prototype approved</b><small>Just now</small></span>
+          </div>
+          <i class="sp" style="left: 8%; top: 30%; --k: 0"></i><i class="sp" style="left: 48%; top: 4%; --k: 1"></i><i
+            class="sp" style="left: 90%; top: 52%; --k: 2"></i><i class="sp" style="left: 30%; top: 88%; --k: 3"></i><i
+            class="sp" style="left: 70%; top: 92%; --k: 4"></i>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats">
+      <div class="wrap sg">
+        <div class="st rv-i">
+          <svg class="i mint" data-i="users"></svg>
+          <div><b>03+</b><span>Years of Experience</span></div>
+        </div>
+        <div class="st rv-i">
+          <svg class="i" style="color: var(--blue)" data-i="layout"></svg>
+          <div><b>15+</b><span>Projects Completed</span></div>
+        </div>
+        <div class="st rv-i">
+          <svg class="i" style="color: var(--cyan)" data-i="smile"></svg>
+          <div><b>100%</b><span>Client Satisfaction</span></div>
+        </div>
+        <div class="st rv-i">
+          <svg class="i" style="color: var(--purple)" data-i="rocket"></svg>
+          <div><b>Passion</b><span>For Great Design</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <section id="about">
+        <div class="wrap ag">
+          <div class="rv-i">
+            <p class="eyebrow">About Me</p>
+            <h2>Designing with empathy, for real people.</h2>
+            <p style="margin-top: 1.2rem; font-size: 0.92rem">
+              I’m Zain Ul Abideen, a UI/UX designer with a passion for
+              creating simple, useful and beautiful digital products. I love
+              understanding people, solving real problems and designing
+              experiences that make life easier — one screen at a time.
+            </p>
+            <div class="sig" role="img" aria-label="Zain Ul Abideen signature">
+              <svg class="sigsvg" viewBox="0 0 360 84" aria-hidden="true">
+                <text class="sig-t" x="6" y="54">Zain Ul Abideen</text>
+                <path class="sig-u" pathLength="1" d="M10 68C90 58 210 72 340 60" />
+              </svg><svg class="sig-arrow" viewBox="0 0 60 24" aria-hidden="true">
+                <path pathLength="1" d="M2 12h50" />
+                <path pathLength="1" d="M42 4l10 8-10 8" />
+              </svg>
+            </div>
+          </div>
+          <div class="port rv-i" role="img" aria-label="Placeholder portrait of the designer">
+            <img src="assets/images/self.jpeg" alt="" style="width: 100%;height: 100%;object-fit: cover;" />
+            <span class="hand">Design.<br />Think.<br />Create.<br />Repeat.</span>
+          </div>
+          <div class="rv-i">
+            <p class="eyebrow">My Skills</p>
+            <h3 style="font-size: 1.15rem">Software and Expertise</h3>
+            <p style="font-size: 0.8rem; margin-top: 0.4rem">
+              The software I design in and the areas I specialise in.
+            </p>
+            <div class="sk">
+              
+              <div class="sk-grid">
+                <div class="sk-card sk-main">
+                  <svg viewBox="0 0 38 57" aria-hidden="true">
+                    <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1abcfe" />
+                    <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0acf83" />
+                    <path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#ff7262" />
+                    <path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#f24e1e" />
+                    <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#a259ff" />
+                  </svg>
+                  <div>
+                    <b>Figma</b><small>Primary design software</small>
+                  </div>
+                  <span class="tag">Software</span>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--mint)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M7 3v18M17 3v18M3 7h18M3 17h18" />
+                    </svg></i><b>Wireframing &amp; Prototyping</b><small>Flows &amp; prototypes</small>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--purple)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 3l4 4-4 4-4-4zM7 8l-4 4 4 4 4-4zM17 8l4 4-4 4-4-4zM12 13l4 4-4 4-4-4z" />
+                    </svg></i><b>User Interface (UI) Design</b><small>Systems &amp; components</small>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--cyan)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="8" r="4" />
+                      <path d="M4 21c0-4 3.5-6 8-6s8 2 8 6" />
+                    </svg></i><b>User Experience (UX) Design</b><small>Journeys &amp; research</small>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--blue)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="9" />
+                      <path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18" />
+                    </svg></i><b>Website Design</b><small>Responsive layouts</small>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--purple)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <rect x="7" y="2" width="10" height="20" rx="2.5" />
+                      <path d="M11 18h2" />
+                    </svg></i><b>Mobile App Design</b><small>iOS &amp; Android</small>
+                </div>
+                <div class="sk-card">
+                  <i style="color: var(--mint)"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="12" cy="12" r="9" />
+                      <circle cx="12" cy="12" r="5" />
+                      <circle cx="12" cy="12" r="1.2" />
+                    </svg></i><b>Conversion-Focused Design</b><small>Clear hierarchy &amp; CTAs</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ap rv-i">
+            <p class="eyebrow" style="font-size: 0.62rem">
+              My Design Approach
+            </p>
+            <ol>
+              <li>
+                <b>01</b>
+                <div>
+                  <strong>Research</strong><small>Understand users, goals and problems.</small>
+                </div>
+              </li>
+              <li>
+                <b>02</b>
+                <div>
+                  <strong>Define</strong><small>Find the right problems to solve.</small>
+                </div>
+              </li>
+              <li>
+                <b>03</b>
+                <div>
+                  <strong>Design</strong><small>Create simple, clear solutions.</small>
+                </div>
+              </li>
+              <li>
+                <b>04</b>
+                <div>
+                  <strong>Prototype</strong><small>Turn ideas into interactive flows.</small>
+                </div>
+              </li>
+              <li>
+                <b>05</b>
+                <div>
+                  <strong>Test</strong><small>Validate with real users.</small>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="work">
+        <div class="wrap">
+          <div class="wh rv-i">
+            <div>
+              <p class="eyebrow">Featured Work</p>
+              <h2>Projects that turn problems<br />into solutions.</h2>
+            </div>
+            <a class="link" href="#work" id="all">View All Projects <svg class="i" data-i="arrow"></svg></a>
+          </div>
+          <div class="pg" id="pg"></div>
+        </div>
+      </section>
+      
+      <dialog id="dlg" aria-labelledby="dt">
+        <h3 id="dt"></h3>
+        <p class="dsub" id="dsub"></p>
+        <p id="dd"></p>
+        <h4 class="dh">Steps</h4>
+        <ol id="dsteps"></ol>
+        <button class="btn" id="dc">Close</button>
+      </dialog>
+
+      
+      <dialog id="idlg" class="lb" aria-label="Project image">
+        <img id="lbi" src="" alt="" />
+        <p id="lbc"></p>
+        <button class="btn" id="lbx">Close</button>
+      </dialog>
+
+      <section id="process">
+        <div class="wrap pr">
+          <div class="rv-i">
+            <p class="eyebrow">My Process</p>
+            <h2>From research<br />to real impact.</h2>
+            <p style="margin: 1.2rem 0; font-size: 0.88rem">
+              A simple, focused process to turn your ideas into user-centered,
+              beautiful products.
+            </p>
+            <a class="link" href="#about">How I Work <svg class="i" data-i="arrow"></svg></a>
+          </div>
+          <div class="steps" id="steps">
+            <div class="step rv-i mint">
+              <div class="ic"><svg class="i" data-i="search"></svg></div>
+              <small>01</small>
+              <h3 style="color: var(--text)">Discover</h3>
+              <p>Research, understand your needs &amp; users.</p>
+            </div>
+            <div class="step rv-i" style="color: var(--blue)">
+              <div class="ic"><svg class="i" data-i="bulb"></svg></div>
+              <small>02</small>
+              <h3 style="color: var(--text)">Ideate</h3>
+              <p>Explore ideas and create wireframes.</p>
+            </div>
+            <div class="step rv-i" style="color: var(--purple)">
+              <div class="ic"><svg class="i" data-i="smile"></svg></div>
+              <small>03</small>
+              <h3 style="color: var(--text)">Design</h3>
+              <p>Build high-fidelity UI designs.</p>
+            </div>
+            <div class="step rv-i" style="color: var(--purple)">
+              <div class="ic"><svg class="i" data-i="pen"></svg></div>
+              <small>04</small>
+              <h3 style="color: var(--text)">Prototype</h3>
+              <p>Bring ideas to life with interactive prototypes.</p>
+            </div>
+            <div class="step rv-i" style="color: var(--cyan)">
+              <div class="ic"><svg class="i" data-i="sync"></svg></div>
+              <small>05</small>
+              <h3 style="color: var(--text)">Test &amp; Iterate</h3>
+              <p>Get feedback, refine and improve.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      
+
+      <section id="contact" style="padding-top: 0">
+        <div class="wrap">
+          <div class="cp rv-i">
+            <div>
+              <p class="eyebrow">Let’s Work Together</p>
+              <h2>Have a project<br />in mind?</h2>
+              <p style="font-size: 0.88rem">
+                I’m always open to new ideas, collaborations and exciting
+                opportunities.
+              </p>
+              <a class="btn pri" href="mailto:zainuiux02@gmail.com">Get In Touch <svg class="i"
+                  data-i="arrow"></svg></a>
+            </div>
+            <ul class="ci">
+              <li>
+                <svg class="i" data-i="mail"></svg>
+                <div>
+                  <small>Email</small><a href="mailto:zainuiux02@gmail.com">zainuiux02@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <svg class="i" data-i="phone"></svg>
+                <div>
+                  <small>Phone</small><a href="tel:+923217238871">+92 321 7238871</a>
+                </div>
+              </li>
+              <li>
+                <svg class="i" data-i="pin"></svg>
+                <div><small>Location</small>Faisalabad, Pakistan</div>
+              </li>
+              <li>
+                <svg class="i" data-i="users"></svg>
+                <div>
+                  <small>Follow Me</small>
+                  <div class="soc">
+                    <a href="https://linkedin.com/in/zain-ul-abideen-ui-ux-designer-and-figma-expert-41222942b/?isSelfProfile=true">LinkedIn</a>
+                    <a href="https://github.com/">GitHub</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="wave" role="img" aria-label="Abstract flowing wave artwork">
+              <svg id="waveSvg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="w1" x1="0" x2="1">
+                    <stop offset="0" stop-color="#65E6CF" />
+                    <stop offset=".5" stop-color="#6aa7ff" />
+                    <stop offset="1" stop-color="#A78BFA" />
+                  </linearGradient>
+                  <linearGradient id="w2" x1="0" y1="1" x2="1" y2="0">
+                    <stop offset="0" stop-color="#1b2a6b" />
+                    <stop offset=".6" stop-color="#4b35b0" />
+                    <stop offset="1" stop-color="#8a63e8" />
+                  </linearGradient>
+                  <linearGradient id="w3" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0" stop-color="#53D6D0" stop-opacity=".6" />
+                    <stop offset="1" stop-color="#1b2a6b" stop-opacity="0" />
+                  </linearGradient>
+                  <radialGradient id="wg" cx=".7" cy=".3" r=".7">
+                    <stop offset="0" stop-color="#A78BFA" stop-opacity=".35" />
+                    <stop offset="1" stop-color="#A78BFA" stop-opacity="0" />
+                  </radialGradient>
+                  <filter id="wb">
+                    <feGaussianBlur stdDeviation="7" />
+                  </filter>
+                </defs>
+                <rect width="400" height="260" fill="#090c14" />
+                <rect width="400" height="260" fill="url(#wg)" />
+                <g filter="url(#wb)" opacity=".6">
+                  <use href="#s1" />
+                </g>
+                <path id="s1" fill="url(#w2)" opacity=".92" d="M-20 190C60 100 120 60 190 120S320 230 420 70V280H-20Z">
+                  <animate attributeName="d" dur="11s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1"
+                    keySplines=".45 0 .55 1;.45 0 .55 1"
+                    values="M-20 190C60 100 120 60 190 120S320 230 420 70V280H-20Z;M-20 160C70 150 130 90 200 150S330 190 420 100V280H-20Z;M-20 190C60 100 120 60 190 120S320 230 420 70V280H-20Z" />
+                </path>
+                <path fill="url(#w3)" opacity=".7" d="M-20 220C80 150 140 120 210 170S330 230 420 130V280H-20Z">
+                  <animate attributeName="d" dur="14s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1"
+                    keySplines=".45 0 .55 1;.45 0 .55 1"
+                    values="M-20 220C80 150 140 120 210 170S330 230 420 130V280H-20Z;M-20 200C80 190 150 150 210 190S330 200 420 150V280H-20Z;M-20 220C80 150 140 120 210 170S330 230 420 130V280H-20Z" />
+                </path>
+                <g id="ribbons"></g>
+                <path d="M-20 150C70 70 150 90 220 150S340 200 420 110" fill="none" stroke="#65E6CF" stroke-opacity=".7"
+                  stroke-width="1.4" />
+                <circle class="tw" style="--k: 0" cx="70" cy="60" r="1.4" fill="#fff" />
+                <circle class="tw" style="--k: 1" cx="320" cy="40" r="1.2" fill="#fff" />
+                <circle class="tw" style="--k: 2" cx="250" cy="90" r="1.6" fill="#65E6CF" />
+                <circle class="tw" style="--k: 3" cx="150" cy="30" r="1.1" fill="#fff" />
+              </svg>
+              <span class="hand">Let’s Create<br />Something<br />Great!<svg class="harrow" viewBox="0 0 60 60"
+                  aria-hidden="true">
+                  <path pathLength="1" d="M52 6C22 6 6 26 12 52" />
+                  <path pathLength="1" d="M12 52l-7-10M12 52l10-8" />
+                </svg></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="ft-top">
+        <div class="ft-brand">
+          <a class="brand" href="#home" aria-label="Zain Ul Abideen — UI/UX Designer"><span class="wordmark">ZAIN
+              &nbsp;.&nbsp;<em>UI/UX</em></span></a>
+          <p>
+            Designing clear, user-centred digital experiences — from first
+            wireframe to final interface.
+          </p>
+        </div>
+        <nav class="ft-nav" aria-label="Footer">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="ft-soc">
+          <a href="https://linkedin.com/in/zain-ul-abideen-ui-ux-designer-and-figma-expert-41222942b/?isSelfProfile=true" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 4a2 2 0 100 4 2 2 0 000-4z" />
+            </svg></a>
+          <a href="https://github.com/" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M15 22v-4a4.8 4.8 0 00-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 004 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4M9 18c-4.51 2-5-2-7-2" />
+            </svg></a>
+        </div>
+      </div>
+      <div class="ft-bot">
+        <span>© <span id="yr">2026</span> Zain Ul Abideen. All rights
+          reserved.</span>
+        <a class="totop" href="#home">Back to top
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+          </svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+
+</html>
