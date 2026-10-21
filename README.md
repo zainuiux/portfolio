@@ -1,4 +1,4 @@
-# Muneeb Ul Haq - UI/UX Portfolio
+# Zain Ul Abideen - UI/UX Portfolio
 
 Plain HTML, CSS and vanilla JS. No build step.
 
